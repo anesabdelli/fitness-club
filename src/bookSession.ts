@@ -1,6 +1,6 @@
 import { bookings } from "./bookings.ts";
 import { members } from "./members.ts";
-import { sessions } from "./seesions.ts";
+import { sessions } from "./sessions.ts";
 
 export async function bookSession(memberId: string, sessionId: string): Promise<{priceCents: number}> {
     const member = await members.byId(memberId);

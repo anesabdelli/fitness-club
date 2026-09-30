@@ -1,7 +1,7 @@
 import { bookings } from "./bookings.ts";
 import { bookSession } from "./bookSession.ts";
 import { members } from "./members.ts";
-import { sessions } from "./seesions.ts";
+import { sessions } from "./sessions.ts";
 
 beforeEach(() => {
   members.reset([
